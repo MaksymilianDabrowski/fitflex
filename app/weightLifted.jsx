@@ -31,7 +31,7 @@ export default function Settings() {
             style={{ flex: 1 }}
         >
             <View style={{ flex: 1 }}>
-                <Text style={styles.title}>Plan Treningowy</Text>
+                <Text style={styles.title}>Licznik KG</Text>
                 <TouchableOpacity
                     onPress={() => router.back()}
                     style={styles.backButton}
@@ -44,9 +44,10 @@ export default function Settings() {
                         style={isPortrait ? styles.portraitImage : styles.landscapeImage}
                     />
                     <Text style={isPortrait ? styles.portraitText : styles.landscapeText}>
-                        Tu planowane jest stworzenie {'\n'}
-                        sekcji dotyczącej gotowych {'\n'}
-                        zestawów ćwiczeń
+                        Tu możemy stworzyć jakiś kalkulator {'\n'}
+                        liczący dźwignięte kg na treningu {'\n'}
+                        tak, żeby mieć ten podpunkt z {'\n'}
+                        zapisywaniem do bazy odhaczony
                     </Text>
                 </View>
             </View>
@@ -67,7 +68,7 @@ const styles = StyleSheet.create({
         borderRadius: hp(5.5) / 2,
     },
     title: {
-        fontSize: hp(4),
+        fontSize: hp(5),
         marginTop: hp(7),
         textAlign: 'center',
         fontWeight: 'bold',
@@ -98,15 +99,15 @@ const styles = StyleSheet.create({
         marginBottom: wp(15),
     },
     portraitText: {
-        fontSize: hp(3),
+        fontSize: hp(2.5),
         fontWeight: 'bold',
         marginTop: hp(2),
         textAlign: 'center',
     },
     landscapeText: {
-        fontSize: wp(7),
+        fontSize: wp(5),
         fontWeight: 'bold',
-        marginBottom: hp(8),
+        marginBottom: hp(10),
         textAlign: 'center',
     },
 });
