@@ -26,7 +26,7 @@ export default function Exercises() {
         };
 
         const subscription = Dimensions.addEventListener('change', handleOrientationChange);
-        
+
         handleOrientationChange(); // Initial check
 
         return () => {
@@ -55,7 +55,7 @@ export default function Exercises() {
                     style={isPortrait ? styles.portraitImage : styles.landscapeImage}
                 />
 
-                <ScrollView 
+                <ScrollView
                     style={styles.detailsContainer}
                     showsVerticalScrollIndicator={false}
                     contentContainerStyle={{ paddingBottom: 60 }}

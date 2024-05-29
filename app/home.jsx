@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
     width: '100%',
     flex: 1,
     justifyContent: 'space-evenly',
-    alignSelf:'center'
+    alignSelf: 'center'
   },
   fullWidth: {
     flexDirection: 'row',

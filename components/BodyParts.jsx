@@ -9,10 +9,8 @@ import Animated, { FadeInDown } from 'react-native-reanimated';
 export default function BodyParts() {
   const router = useRouter();
 
-  
   const isPortrait = Dimensions.get('window').height > Dimensions.get('window').width;
 
-  
   const renderBodyPartCard = ({ item, index }) => {
     return (
       <Animated.View entering={FadeInDown.duration(400).delay(index * 200).springify()}>

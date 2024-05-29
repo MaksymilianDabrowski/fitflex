@@ -45,7 +45,7 @@ export default function Settings() {
                     />
                     <Text style={isPortrait ? styles.portraitText : styles.landscapeText}>
                         Mateusz Czernik {'\n'}nr albumu 13905{'\n'}
-                        Maksymilian Dąbrowski {'\n'}nr albumu *****
+                        Maksymilian Dąbrowski {'\n'}nr albumu 13625
                     </Text>
                 </View>
             </View>

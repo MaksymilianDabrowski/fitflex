@@ -152,6 +152,6 @@ const styles = StyleSheet.create({
     optionText: {
         color: 'black',
         fontSize: hp(2.5),
-        textAlign:'center'
+        textAlign: 'center'
     },
 });

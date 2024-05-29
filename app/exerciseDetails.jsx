@@ -43,7 +43,7 @@ export default function ExerciseDetails() {
                     style={isPortrait ? styles.portraitImage : styles.landscapeImage}
                 />
 
-                <ScrollView 
+                <ScrollView
                     style={styles.detailsContainer}
                     showsVerticalScrollIndicator={false}
                     contentContainerStyle={{ paddingBottom: 60 }}
