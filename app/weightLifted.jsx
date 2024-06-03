@@ -43,12 +43,6 @@ export default function Settings() {
                         source={require('../assets/images/inprogress.png')}
                         style={isPortrait ? styles.portraitImage : styles.landscapeImage}
                     />
-                    <Text style={isPortrait ? styles.portraitText : styles.landscapeText}>
-                        Tu możemy stworzyć jakiś kalkulator {'\n'}
-                        liczący dźwignięte kg na treningu {'\n'}
-                        tak, żeby mieć ten podpunkt z {'\n'}
-                        zapisywaniem do bazy odhaczony
-                    </Text>
                 </View>
             </View>
         </LinearGradient>
